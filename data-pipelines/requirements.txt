@@ -1,0 +1,11 @@
+requests
+qdrant-client
+sentence-transformers
+python-dotenv
+feedparser
+beautifulsoup4
+newspaper4k 
+lxml_html_clean
+nltk
+langgraph 
+langchain-core
