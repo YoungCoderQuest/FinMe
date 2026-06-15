@@ -208,6 +208,13 @@ cd FinMe
 docker compose up --build
 ```
 
+### Pull Models:
+
+```bash
+docker compose exec ollama ollama pull mistral:latest
+docker compose exec ollama ollama pull llama3.2:3b
+```
+
 ### Services
 
 Backend
