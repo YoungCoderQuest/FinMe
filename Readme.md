@@ -215,6 +215,15 @@ docker compose exec ollama ollama pull mistral:latest
 docker compose exec ollama ollama pull llama3.2:3b
 ```
 
+### Running ingestion Pipeline
+```bash
+Invoke-RestMethod -Method POST -Uri "http://localhost:8000/ingest/run"
+```
+### Checking Pipeline Status:
+```bash
+Invoke-RestMethod -Uri "https://localhost:8000/ingest/status"       
+```
+
 ### Services
 
 Backend
